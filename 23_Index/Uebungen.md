@@ -1,6 +1,6 @@
 # Übungen zur Indexierung
 
-Erzeuge 1E2, 1E4 sowie 1E6 zufällige Daten in einer Tabelle.
+Erzeuge 1.000, 10.000 sowie 1.000.000 zufällige Daten in einer Tabelle.
 
  - Wie lange dauert die initiale Indexierung?
  - In welcher Beziehung steht die Zeit zur Datenmenge (logarithmisch, linear, exponentiell, etc,)?
