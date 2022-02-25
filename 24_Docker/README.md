@@ -42,7 +42,7 @@ Bei jedem einzelenen Schritt wird ein Zwischencontainer angelegt. Diese werden g
 
 Dockerfiles beschreiben immer einen einzelenen Service (z.B eine node webapp). Jedoch gibt es in der Praxis nahezu immer mehrere Services welche zusammen ein Gesamtsystem ergeben. So benötigt eine Webapp häufig eine Datenbank. Einen weiteren Webservice für eine API ist nicht unüblich. Legacy Systeme benötigen oft eine andere Oberfläche als die moderenern Systeme, auch sie benötigen eigene Container. Jeder Container existiert dann für sich abgeschlossen und nur über vordefinierte Ports bzw. Ordner kann auf diese Zugegriffen werden. 
 
-All diese Container immer neu zu erstellen (und entsprechende Volumes, virtuelle Netzwerke etc.) zu verwalten kann schnell aufwändig werden. Docker-Compose nimmt einem hier vieles ab. Man kann mehrere Container sowie deren Zusammenspiel direkt in einer Datei konfigurieren. Mit `docker-compose up` werden dann automatisch die Container gebuilded und ausgeführt. 
+All diese Container immer neu zu erstellen (und entsprechende Volumes, virtuelle Netzwerke etc.) zu verwalten kann schnell aufwändig werden. Docker-Compose nimmt einem hier vieles ab. Man kann mehrere Container sowie deren Zusammenspiel direkt in einer Datei konfigurieren. Mit `docker-compose up` werden dann automatisch die Container gebuilded und ausgeführt. Die Konfigurationsdatei `docker-compose.yml` kann z.B so aussehen:
 
 ```yaml
 version: "3"
