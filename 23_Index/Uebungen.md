@@ -9,7 +9,7 @@ Erzeuge 1.000, 10.000 sowie 1.000.000 zufällige Daten in einer Tabelle.
 
   - Wie lange dauern die dannach durchgeführten SQL-Abfragen. Wie ändert sich die Abfragedauer wenn man nicht indexierte Spalten dazugibt?
 
-- Was schätzt du, was sagen die Messungen?
+
 
 ## Erkentnisse
 
