@@ -7,6 +7,20 @@ abrufbar.
 In SQL Developer muss unter *Preferences* - *Advanced* der Punkt *Autocommit* für diese Übung deaktiviert.
 werden. In DBeaver muss in der Symbolleiste statt Auto der Punkt *Manual Commit* aktiviert werden.
 
+todo acid
+
+todo isolationslevel
+
+mit quellenangaben
+
+eventbasierte architektur vorschlagen
+
+bankomat reseriverung anschneiden
+
+balance zwischen geschwindigkeit und konsistenz sagen
+
+
+
 ## Anlegen von 2 Usern
 
 Wir verbinden uns mit dem User System zur Datenbank und legen 2 Benutzer an.
