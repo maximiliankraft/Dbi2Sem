@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    oracle-xe:
+        ports:
+            - '1521:1521'
+        environment:
+            - ORACLE_PASSWORD=oracle
+            # - username=sys as sysdba
+            # - sid=XE
+        volumes:
+            - 'oracle-volume:/opt/oracle/oradata'
+        image: gvenzl/oracle-xe
+volumes:
+  oracle-volume:

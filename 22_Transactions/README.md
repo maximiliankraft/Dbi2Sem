@@ -23,7 +23,7 @@ abrufbar.
 In SQL Developer muss unter *Preferences* - *Advanced* der Punkt *Autocommit* für diese Übung deaktiviert.
 werden. In DBeaver muss in der Symbolleiste statt Auto der Punkt *Manual Commit* aktiviert werden.
 
-## Isloationslevel
+## Isolationslevel
 > Quelle: [Isolation levels and concurrency, Oracle Docs](https://docs.oracle.com/javadb/10.8.3.0/devguide/cdevconcepts15366.html)
 
  - Read Comitted
